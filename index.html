@@ -18,7 +18,7 @@
     <div class="slides">
         <section>
             <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
-                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                  xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="svg2403" sodipodi:version="0.32"
                  inkscape:version="0.46" width="708.30505" height="148.765" xml:space="preserve"
@@ -128,29 +128,291 @@
                         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
                         id="path2512"/></g></g></g></svg>
             <br>
-            <h1 class="r-fit-text r-stretch">Informationsvisualisierung von wissenschaftlichen Publikationsdaten zur visuellen Erkennung von Forschungstrends</h1>
+            <h1 class="r-fit-text r-stretch">Informationsvisualisierung von wissenschaftlichen Publikationsdaten zur
+                visuellen Erkennung von Forschungstrends</h1>
 
             <p>Jasper Bartscher - Matr. Nr. 70458768</p>
 
         </section>
+        <!-- AGENDA -->
         <section>
-            <h3>Agenda</h3>
-            <ul>
-                <li>Zielsetzung</li>
-                <li>Was ist Informationsvisualisierung</li>
-                <li>Datengrundlage</li>
-                <li>Herangehensweise</li>
-                <li>Implementierung</li>
-                <li>Vorstellung des Prototypen</li>
-            </ul>
-        </section>
-        <section>
-            <h3>Zielsetzung</h3>
-
-            ... besteht der Bedarf? Wie gehen andere Akteure damit um?
-            <section>
-                <img src="images/screenshots/Findings%20Herausgeber.png" />
+            <!-- 0 -->
+            <section data-auto-animate>
+                <h3>Agenda</h3>
+                <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 2em 0 2em;">
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Zielsetzung</span></div>
+                    <div data-id="box"><span
+                            style="padding-right: 0.25em">&#8226;</span>Informationsvisualisierung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span>Datengrundlage</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Herangehensweise</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Vorstellung des Prototypen</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Evaluierung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Bewertung & Lessons learned</span>
+                    </div>
+                </div>
             </section>
+            <!-- 1 - Zielsetzung -->
+            <section data-auto-animate>
+                <h3>Agenda</h3>
+                <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 2em 0 2em;">
+                    <div data-id="box"
+                         style="display: flex; justify-content: center; width:100%; height: 100px; background: white; color: #003a79">
+                        <p>Zielsetzung</p></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Informationsvisualisierung</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Datengrundlage</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Herangehensweise</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Vorstellung des Prototypen</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Evaluierung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Bewertung & Lessons learned</span>
+                    </div>
+                </div>
+            </section>
+            <!-- 2 - Informationsvisualisierung -->
+            <section data-auto-animate>
+                <h3>Agenda</h3>
+                <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 2em 0 2em;">
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Zielsetzung</span></div>
+                    <div data-id="box"
+                         style="display: flex; justify-content: center; width:100%; height: 100px; background: white; color: #003a79">
+                        <p>Informationsvisualisierung</p>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Datengrundlage</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Herangehensweise</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Vorstellung des Prototypen</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Evaluierung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Bewertung & Lessons learned</span>
+                    </div>
+                </div>
+            </section>
+            <!-- 3 - Datengrundlage -->
+            <section data-auto-animate>
+                <h3>Agenda</h3>
+                <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 2em 0 2em;">
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Zielsetzung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Informationsvisualisierung</span>
+                    </div>
+                    <div data-id="box"
+                         style="display: flex; justify-content: center; width:100%; height: 100px; background: white; color: #003a79">
+                        <p>Datengrundlage</p></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Herangehensweise</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Vorstellung des Prototypen</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Evaluierung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Bewertung & Lessons learned</span>
+                    </div>
+                </div>
+            </section>
+            <!-- 4 - Herangehensweise -->
+            <section data-auto-animate>
+                <h3>Agenda</h3>
+                <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 2em 0 2em;">
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Zielsetzung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Informationsvisualisierung</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Datengrundlage</span>
+                    </div>
+                    <div data-id="box"
+                         style="display: flex; justify-content: center; width:100%; height: 100px; background: white; color: #003a79">
+                        <p>Herangehensweise</p>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Vorstellung des Prototypen</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Evaluierung</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Bewertung & Lessons learned</span>
+                    </div>
+                </div>
+            </section>
+            <!-- 5 - Prototypen -->
+            <section data-auto-animate>
+                <h3>Agenda</h3>
+                <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 2em 0 2em;">
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Zielsetzung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Informationsvisualisierung</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Datengrundlage</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Herangehensweise</span>
+                    </div>
+                    <div data-id="box"
+                         style="display: flex; justify-content: center; width:100%; height: 100px; background: white; color: #003a79">
+                        <p>Vorstellung des Prototypen</p></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Evaluierung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Bewertung & Lessons learned</span>
+                    </div>
+                </div>
+            </section>
+            <!-- 6 - Evaluierung -->
+            <section data-auto-animate>
+                <h3>Agenda</h3>
+                <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 2em 0 2em;">
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Zielsetzung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Informationsvisualisierung</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Datengrundlage</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Herangehensweise</span>
+                    </div>
+                    <div data-id="box">Vorstellung des Prototype</div>
+                    <div data-id="box"
+                         style="display: flex; justify-content: center; width:100%; height: 100px; background: white; color: #003a79">
+                        <p>Evaluierung</p></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Bewertung & Lessons learned</span>
+                    </div>
+                </div>
+            </section>
+            <!-- 7 - Bewertung & Lessons learned -->
+            <section data-auto-animate>
+                <h3>Agenda</h3>
+                <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 2em 0 2em;">
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Zielsetzung</span></div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Informationsvisualisierung</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Datengrundlage</span>
+                    </div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Herangehensweise</span>
+                    </div>
+                    <div data-id="box">Vorstellung des Prototype</div>
+                    <div data-id="box"><span style="padding-right: 0.25em">&#8226;</span><span>Evaluierung</span></div>
+                    <div data-id="box"
+                         style="display: flex; justify-content: center; width:100%; height: 100px; background: white; color: #003a79">
+                        <p>Bewertung & Lessons learned</p></div>
+                </div>
+            </section>
+
+            <div data-id="anim"
+                 style="border-radius: 50px; background: white; color: #003a79; padding: 8px; width: fit-content; position: fixed; font-size: 0.75em; left: -10%; bottom: 0px">
+                Agenda
+            </div>
+            <div data-id="anim"
+                 style="z-index: -1; background: white; width: calc(100% + 100px); height: 5px; position: fixed; left: -40px; bottom: 25px"></div>
+        </section>
+
+        <!-- ZIELSETZUNG -->
+        <section>
+            <h3><span style="padding-right: 0.25em">&#8226;</span><span>Zielsetzung</span></h3>
+            <section>
+                ... besteht der Bedarf? Wie gehen andere Akteure damit um?
+            </section>
+
+
+            <section>
+                <img src="images/screenshots/Findings%20Herausgeber.png"/>
+            </section>
+
+            <div data-id="anim"
+                 style="border-radius: 50px; background: white; color: #003a79; padding: 8px; width: fit-content; position: fixed; font-size: 0.75em; left: 0%; bottom: 0px">
+                Zielsetzung
+            </div>
+            <div data-id="anim"
+                 style="z-index: -1; background: white; width: calc(100% + 100px); height: 5px; position: fixed; left: -40px; bottom: 25px"></div>
+        </section>
+        <!-- ZIELSETZUNG -->
+        <section>
+            <h3><span style="padding-right: 0.25em">&#8226;</span><span>Informationsvisualisierung</span></h3>
+            <section>
+            </section>
+
+            <div data-id="anim"
+                 style="border-radius: 50px; background: white; color: #003a79; padding: 8px; width: fit-content; position: fixed; font-size: 0.75em; left: 14%; bottom: 0px">
+                Informationsvisualisierung
+            </div>
+            <div data-id="anim"
+                 style="z-index: -1; background: white; width: calc(100% + 100px); height: 5px; position: fixed; left: -40px; bottom: 25px"></div>
+        </section>
+
+        <!-- DATENGRUNDLAGE -->
+        <section>
+            <h3>Datengrundlage</h3>
+            <section>
+            </section>
+
+            <div data-id="anim"
+                 style="border-radius: 50px; background: white; color: #003a79; padding: 8px; width: fit-content; position: fixed; font-size: 0.75em; left: 28%; bottom: 0px">
+                Datengrundlage
+            </div>
+            <div data-id="anim"
+                 style="z-index: -1; background: white; width: calc(100% + 100px); height: 5px; position: fixed; left: -40px; bottom: 25px"></div>
+        </section>
+
+        <!-- HERANGEHENSWEISE -->
+        <section>
+            <h3>Herangehensweise</h3>
+            <section>
+            </section>
+
+            <div data-id="anim"
+                 style="border-radius: 50px; background: white; color: #003a79; padding: 8px; width: fit-content; position: fixed; font-size: 0.75em; left: 42%; bottom: 0px">
+                Herangehensweise
+            </div>
+            <div data-id="anim"
+                 style="z-index: -1; background: white; width: calc(100% + 100px); height: 5px; position: fixed; left: -40px; bottom: 25px"></div>
+        </section>
+
+        <!-- PROTOTYP -->
+        <section>
+            <h3>Prototyp</h3>
+            <section>
+            </section>
+
+            <div data-id="anim"
+                 style="border-radius: 50px; background: white; color: #003a79; padding: 8px; width: fit-content; position: fixed; font-size: 0.75em; left: 58%; bottom: 0px">
+                Prototyp
+            </div>
+            <div data-id="anim"
+                 style="z-index: -1; background: white; width: calc(100% + 100px); height: 5px; position: fixed; left: -40px; bottom: 25px"></div>
+        </section>
+
+        <!-- EVALUIERUNG -->
+        <section>
+            <h3>Evaluierung</h3>
+            <section data-auto-animate data-auto-animate-unmatched="fade">
+                <div data-id="eval">„Usability Heuristics“ nach Nielsen</div>
+            </section>
+            <section data-auto-animate data-auto-animate-unmatched="fade">
+                <div data-id="eval">„Usability Heuristics“ nach Nielsen</div>
+                <div data-id="eval" style="font-size: 0.5em; font-style:italic;">„Visibility of system status“, „Match between system and the real world“, „Match between system and
+                    the real world“, „Consistency and standards“, „Error prevention, Recognition rather than recall,
+                    „Flexibility and efficiency of use“, „Aesthetic and minimalist design“, „Help users recognize,
+                    diagnose, and recover from errors“, „Help and documentation“ ...
+                </div>
+            </section>
+
+            <div data-id="anim"
+                 style="border-radius: 50px; background: white; color: #003a79; padding: 8px; width: fit-content; position: fixed; font-size: 0.75em; left: 72%; bottom: 0px">
+                Evaluierung
+            </div>
+            <div data-id="anim"
+                 style="z-index: -1; background: white; width: calc(100% + 100px); height: 5px; position: fixed; left: -40px; bottom: 25px"></div>
+        </section>
+
+
+        <!-- BEWERTUNG -->
+        <section>
+
+            <section>
+                <h3>Bewertung</h3>
+            </section>
+            <section>
+                <h3>Lessons Learned</h3>
+            </section>
+
+            <div data-id="anim"
+                 style="border-radius: 50px; background: white; color: #003a79; padding: 8px; width: fit-content; position: fixed; font-size: 0.75em; left: 92%; bottom: 0px">
+                Bewertung
+            </div>
+            <div data-id="anim"
+                 style="z-index: -1; background: white; width: calc(100% + 100px); height: 5px; position: fixed; left: -40px; bottom: 25px"></div>
         </section>
     </div>
 </div>
