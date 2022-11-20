@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>reveal.js</title>
+    <title>Informationsvisualisierung von wissenschaftlichen Publikationsdaten zur visuellen Erkennung von Forschungstrends</title>
 
     <link rel="stylesheet" href="dist/reset.css">
     <link rel="stylesheet" href="dist/reveal.css">
@@ -16,6 +16,7 @@
 <body>
 <div class="reveal">
     <div class="slides">
+        <!-- DECKBLATT -->
         <section>
             <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -302,12 +303,12 @@
         <section>
             <h3>Zielsetzung</h3>
             <section>
-                ... besteht der Bedarf? Wie gehen andere Akteure damit um?
+                <div>Menge an wissenschaftlichen Publikationen erhöht sich <span style="color: #7ab51d">jährlich</span> um etwa 3-9%</div>
+                <br>
+                <div>Immer schnellerer Abfall von Zitierungskurven</div>
             </section>
-
-
-            <section>
-                <img src="images/screenshots/Findings%20Herausgeber.png"/>
+            <section data-background-image="./images/screenshots/menge_journals.png" data-background-size="900px" data-background-opacity="0.9">
+                <div style="position: fixed; bottom: 50px; left: 10%; font-size: 0.3em">Growth rates of modern science: A bibliometric analysis based on the number of publications and cited references, Bornmann, Lutz and Mutz, Ruediger, 2014</div>
             </section>
 
             <div data-id="anim"
@@ -320,7 +321,34 @@
         <!-- INFORMATIONSVISUALISIERUNG -->
         <section>
             <h3>Informationsvisualisierung</h3>
-            <section>
+            <section data-auto-animate data-auto-animate-id="a">
+                <div><span style="font-style: italic">„The use of computer-supported, interactive, visual representations of abstract data to amplify cognition“ (Card et al., 1999, S.7)</span>
+                </div>
+            </section>
+
+            <section data-auto-animate data-auto-animate-id="a" data-background-image="./images/externeRepräsentation.png" data-background-size="500px" data-background-opacity="0.5">
+                <div data-id="dv1">Externe <span data-id="span1" data-auto-animate-duration="0.2" style="display: none; opacity: 0">visuelle</span> Repräsentation von <span data-id="span2" data-auto-animate-duration="0.2" style="display: none; opacity: 0">abstrakten</span> Informationen</div>
+                <br>
+                <div data-id="dv1">Unterstützung und Entlastung von Kognition und Gedächtnis</div>
+            </section>
+
+            <section data-auto-animate data-auto-animate-id="a">
+                <div data-id="dv1">Externe <span data-id="span1" data-auto-animate-duration="0.2" style="display: inline-block; opacity: 1">visuelle</span> Repräsentation von <span data-id="span2" data-auto-animate-duration="0.2" style="display: inline-block; opacity: 1">abstrakten Daten</span>
+                </div>
+            </section>
+
+            <section data-auto-animate data-auto-animate-id="a">
+                <div data-id="dv1">Externe <span data-id="span1" style="color: #7ab51d; display: inline-block; opacity: 1">visuelle</span> Repräsentation von <span data-id="span2" style="color: #ee7f00; display: inline-block; opacity: 1">abstrakten Daten</span>
+                </div>
+            </section>
+
+
+            <section data-auto-animate-id="b">
+                <div>„Ein Bild sagt mehr als tausend Worte„</div>
+                <br>
+                <div>Unterstützung von Kognition ➡ Lösen einer Aufgabe</div>
+                <br>
+                <div>Präsentieren, Vermitteln, Erkennen/Erforschen, Bestätigten/Widerlegen</div>
             </section>
 
             <div data-id="anim"
@@ -334,7 +362,13 @@
         <!-- DATENGRUNDLAGE -->
         <section>
             <h3>Datengrundlage</h3>
-            <section>
+            <section data-background-image="./images/screenshots/Citation.png" data-background-size="1100px" data-background-opacity="0.9">
+            </section>
+            <section data-background-image="./images/Datenaufbereitung.png" data-background-size="1100px" data-background-opacity="0.9">
+            </section>
+            <section data-background-image="./images/screenshots/journals-scrape.png" data-background-size="1100px" data-background-opacity="0.9">
+            </section>
+            <section data-background-image="./images/screenshots/citations-scrape.png" data-background-size="1100px" data-background-opacity="0.9">
             </section>
 
             <div data-id="anim"
@@ -348,8 +382,35 @@
         <!-- HERANGEHENSWEISE -->
         <section>
             <h3>Herangehensweise</h3>
-            <section>
+            <section data-auto-animate="herangehensweise">
+                <div data-id="anim">Entwicklung verschiedener Ansätze<span data-id="span1" data-auto-animate-duration="0.2" style="display: none; opacity: 0">➡ Verschiedene Visualsierungsidiome</span></div>
             </section>
+            <section data-auto-animate="herangehensweise">
+                <div data-id="anim">Entwicklung verschiedener Ansätze <span data-id="span1" data-auto-animate-duration="0.2" style="display: inline-block; opacity: 1">➡ Verschiedene Visualsierungsidiome</span></div>
+            </section>
+            <section data-auto-animate="herangehensweise">
+                <div data-id="anim">Entwicklung verschiedener Ansätze <span data-id="span1" data-auto-animate-duration="0.2" style="display: inline-block; opacity: 1">➡ Verschiedene Visualsierungsidiome</span></div>
+                <br>
+                <div data-id="anim">Verwendung des Visualisierungensframeworks nach Tamara Munzner zur Entwicklung der Idiome</div>
+            </section>
+            <section data-auto-animate="herangehensweise">
+                <div data-id="anim">Entwicklung verschiedener Ansätze <span data-id="span1" data-auto-animate-duration="0.2" style="display: inline-block; opacity: 1">➡ Verschiedene Visualsierungsidiome</span></div>
+                <br>
+                <div data-id="anim">Verwendung des Visualisierungensframeworks nach Tamara Munzner zur Entwicklung der Idiome</div>
+                <br>
+                <div data-id="anim">Entwicklung von vier verschiedenen Ansätzen</div>
+            </section>
+            <!-- bild zu anderen Visualisierungen-->
+            <section data-auto-animate="herangehensweise" data-background-image="./images/screenshots/Findings Herausgeber.png" data-background-size="1000px" data-background-opacity="0.9">
+            </section>
+
+            <!-- erstes Idiom -->
+            <section data-auto-animate="herangehensweise" data-background-image="./images/screenshots/Findings Herausgeber.png" data-background-size="1000px" data-background-opacity="0.9">
+            </section>
+            <!-- zweites Idiom -->
+            <!-- drittes Idiom -->
+            <!-- viertes Idiom -->
+
 
             <div data-id="anim"
                  style="border-radius: 50px; background: white; color: #003a79; padding: 8px; width: fit-content; position: fixed; font-size: 0.75em; left: 42%; bottom: 0px">
@@ -403,10 +464,12 @@
 
             <section>
                 <h3>Bewertung</h3>
+                <div>Angemessenheit</div>
             </section>
             <section>
                 <h3>Lessons Learned</h3>
                 <div>React opinionated Framework bzgl. DOM Manipulation. React ↯ D3</div>
+                <br>
                 <div>Festlegung auf <span style="font-style: italic ">univariate</span> Relation</div>
             </section>
 
@@ -429,8 +492,11 @@
     // - https://revealjs.com/initialization/
     // - https://revealjs.com/config/
     Reveal.initialize({
+        center: true,
         hash: true,
-
+       // autoAnimateEasing: 'ease-out',
+        autoAnimateDuration: 0.8,
+        autoAnimateUnmatched: false,
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
     });
